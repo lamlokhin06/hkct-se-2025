@@ -1,0 +1,10 @@
+body { font-family: system-ui, sans-serif; }
+.card img { height: 180px; object-fit: cover; }
+.badge {
+  background: #e9f1ff;
+  color: #0b5ed7;
+  border: 1px solid #bcd;
+  border-radius: 14px;
+  padding: 4px 10px;
+  font-size: 0.85rem;
+}

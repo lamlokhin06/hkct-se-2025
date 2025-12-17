@@ -1,0 +1,25 @@
+{
+  "name": "ai-annotation-tool",
+  "version": "2.0.0",
+  "description": "Enhanced AI dataset annotation tool with Bootstrap, ORM, migrations, seeding, and TDD (Mocha).",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "dev": "NODE_ENV=development node server/app.js",
+    "migrate": "node server/db/migrate.js",
+    "seed": "node server/db/seed.js",
+    "test": "mocha --timeout 10000"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.4.0",
+    "better-sqlite3-proxy": "^3.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.7.0",
+    "supertest": "^7.0.0"
+  }
+}
